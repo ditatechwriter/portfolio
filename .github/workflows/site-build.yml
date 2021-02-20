@@ -1,0 +1,55 @@
+# ditatechwriter.com build workflow
+
+name: site-build
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  # push:
+  #   branches: [ main ]
+  # pull_request:
+  #   branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+jobs:
+ build-dita:
+    name: Build-DITA
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Build Gitbook
+        id: DITA-build
+        uses: jason-fox/dita-build-action@master
+        with:
+          build: dita -i flowers.ditamap -o out -f markdown_github -v
+      - name: Upload DITA
+        id: upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: dita-artifact
+          path: 'out'
+      - name: Deploy 🚀
+        id: deploy
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: site # The branch the action should deploy to.
+          FOLDER: out # The folder the action should deploy.
+          TARGET-FOLDER: docs
+
+ notify-slack:
+   runs-on: ubuntu-latest
+   name: Slack update
+   needs: build-dita
+   steps:
+    - uses: act10ns/slack@v1
+      with:
+        status: ${{ job.status }}
+        steps: ${{ toJson(steps) }}
+        channel: '#gh-actions'
+      if: always()
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
