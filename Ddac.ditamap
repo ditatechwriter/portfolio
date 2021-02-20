@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="untitled6">    
+    <title/>
+        <!-- Be sure to add product and version metadata as described in https://confluence.puppetlabs.com/pages/viewpage.action?spaceKey=DOCS&title=Working+with+content -->
+        <prodinfo>
+            <prodname></prodname>
+            <vrmlist>
+                <vrm version=""/>
+            </vrmlist>
+        </prodinfo>
+    
+    <!-- If you are adding a conref warehouse topic, make sure you set processing-role="resource-only" in the topicref -->
+    <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
+    <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
+        <topicref format="markdown" href="write-review-MDITA.md" keys="write-MDITA"/>
+        <topicref format="markdown" href="Ditamaps4dac.md" keys="MDITA-maps"/>
+        <topicref format="markdown" href="MDITA-keys.md" keys="MDITA-keys"/>
+        <topicref format="markdown" href="MDITA-conrefs.md" keys="MDITA-conrefs"/>
+        <topicref format="markdown" href="MDITA-filters.md" keys="MDITA-filters"/>
+        <topicref format="markdown" href="publish-MDITA.md" keys="publish-MDITA"/>
+        <topicref format="markdown" href="test.md" keys="test"/>
+    </topicref>
+    <topicref format="markdown" href="pubs-pipeline.md" keys="pubs-pipeline">
+        <topicref format="markdown" href="GA-build.md" keys="GA-build"/>
+        <topicref format="markdown" href="slack-notify.md" keys="slack-notify"/>
+        <topicref format="markdown" href="ssg-setup.md" keys="ssg-setup"/>
+        <topicref format="markdown" href="ssg-gitbook.md" keys="ssg-gitbook"/>
+        <topicref format="markdown" href="ssg-mkdocs.md" keys="ssg-mkdocs"/>
+    </topicref>
+    <topicref format="markdown" href="pub-netlify.md" keys="pub-netlify"/>
+    <topicref format="ditamap" href="keydefs.ditamap" keys="keydefsmap"
+        processing-role="resource-only"/>
+    <topicref format="markdown" href="conref.md" keys="conrefs" processing-role="resource-only"/>
+    <topicref format="ditaval" href="exclude-mac.ditaval" processing-role="resource-only"/>
+</map>
