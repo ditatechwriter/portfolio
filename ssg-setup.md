@@ -10,7 +10,7 @@ Documentation on configuring is available on the [Docsify website](https://docsi
 
 To set it up to display the content built by the GitHub actions:
 
-1. Create an empty branch in the same repository as your MDITA source. I ahve acalled mine 'docsify'. 
+1. Create an empty branch in the same repository as your MDITA source. I have called mine 'site'. 
 1. Add a new folder called `docs`,
 1. Within the `docs` folder add the index.html file as outlined in the [Docsify documentation](https://docsify.js.org/#/quickstart?id=manual-initialization).
 1. Edit the index.html file to use index.md (which the markdown generates from your root ditamap) as a sidebar navigation file:
