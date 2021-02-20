@@ -24,7 +24,7 @@ jobs:
         id: DITA-build
         uses: jason-fox/dita-build-action@master
         with:
-          build: dita -i Ddac.ditamap -o out -f markdown_github -v
+          build: dita --project=build.yaml
       - name: Upload DITA
         id: upload
         uses: actions/upload-artifact@v2

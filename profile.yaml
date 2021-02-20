@@ -1,0 +1,15 @@
+deliverables:
+  - name: 'markdown_github'
+    context:
+      input: 'Ddac.ditamap'
+      idref: 'markdown_github'
+    output: 'out'
+    publication:
+      transtype: 'markdown_github'
+      params:
+        - name: 'args.copycss'
+          value: 'yes'
+        - name: 'args.css'
+          value: 'theme.css'
+        - name: 'args.cssroot'
+          path: '.'
