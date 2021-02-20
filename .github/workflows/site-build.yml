@@ -25,13 +25,6 @@ jobs:
         uses: jason-fox/dita-build-action@master
         with:
           build: dita --project=profile.yaml -v
-      - name: move files
-        run: |
-         git mv theme.css out
-         git mv coverpage.md out
-         git config --global user.email "michael@ditatechwriter.com"
-         git config --global user.name "ditatechwriter"
-         git commit -m "moved resources"
       - name: Upload DITA
         id: upload
         uses: actions/upload-artifact@v2
@@ -46,6 +39,8 @@ jobs:
           BRANCH: site # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
           TARGET-FOLDER: docs
+          CLEAN-EXCLUDE: theme.css
+                         coverpage.css
 
  
  notify-slack:
