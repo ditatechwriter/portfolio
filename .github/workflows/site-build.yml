@@ -30,7 +30,7 @@ jobs:
          git mv theme.css out
          git mv coverpage.md out
          git config --global user.email "michael@ditatechwriter.com"
-         git config --global user.name "mditatechwriter"
+         git config --global user.name "ditatechwriter"
          git commit -m "moved resources"
       - name: Upload DITA
         id: upload
