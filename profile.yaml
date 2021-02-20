@@ -2,7 +2,7 @@ deliverables:
   - name: 'portfolio'
     context:
       input: 'Ddac.ditamap'
-    output: 'out'
+    output: '.'
     publication:
       transtype: 'markdown_github'
       params:
