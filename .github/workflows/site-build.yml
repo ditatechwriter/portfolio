@@ -24,7 +24,7 @@ jobs:
         id: DITA-build
         uses: jason-fox/dita-build-action@master
         with:
-          build: dita --project=profile.yaml -v
+          build: dita --project=profile.yaml -v --args.css=theme.css args.copycss=yes
       - name: Upload DITA
         id: upload
         uses: actions/upload-artifact@v2
