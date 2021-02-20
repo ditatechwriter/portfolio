@@ -23,5 +23,4 @@
         processing-role="resource-only"/>
     <topicref format="markdown" href="conref.md" keys="conrefs" processing-role="resource-only"/>
     <topicref href="index.html" format="html" processing-role="resource-only"/>
-    <topicref href="coverpage.md" format="markdown" processing-role="resource-only"/>
 </map>
