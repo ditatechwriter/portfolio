@@ -1,3 +1,4 @@
+---
 deliverables:
   - name: 'portfolio'
     context:
@@ -5,10 +6,3 @@ deliverables:
     output: '.'
     publication:
       transtype: 'markdown_github'
-      params:
-        - name: 'args.copycss'
-          value: 'yes'
-        - name: 'args.css'
-          value: 'theme.css'
-        - name: 'args.cssroot'
-          path: './'
