@@ -11,6 +11,6 @@ deliverables:
         - name: 'args.css'
           value: 'theme.css'
         - name: 'args.csspath'
-          path: '.'
+          path: 'css'
         - name: 'args.resources'
-          path: '_coverpage.md'
+          path: 'coverpage.md'
