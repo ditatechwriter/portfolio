@@ -19,6 +19,7 @@
         <topicref format="markdown" href="ssg-mkdocs.md" keys="ssg-mkdocs"/>
     </topicref>
     <topicref format="markdown" href="pub-netlify.md" keys="pub-netlify"/>
+    <topicref href="coverpage.md" format="markdown"/>
     <topicref format="ditamap" href="keydefs.ditamap" keys="keydefsmap"
         processing-role="resource-only"/>
     <topicref format="markdown" href="conref.md" keys="conrefs" processing-role="resource-only"/>
