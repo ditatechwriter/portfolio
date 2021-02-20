@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map id="untitled6">    
-    <title/>
-        <!-- Be sure to add product and version metadata as described in https://confluence.puppetlabs.com/pages/viewpage.action?spaceKey=DOCS&title=Working+with+content -->
-        <prodinfo>
-            <prodname></prodname>
-            <vrmlist>
-                <vrm version=""/>
-            </vrmlist>
-        </prodinfo>
-    
-    <!-- If you are adding a conref warehouse topic, make sure you set processing-role="resource-only" in the topicref -->
+<map id="Ddac">   
     <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
     <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
         <topicref format="markdown" href="write-review-MDITA.md" keys="write-MDITA"/>
