@@ -14,4 +14,5 @@
     -   [Building Content for Gitbook](ssg-gitbook.md)
     -   [Building Content for MkDocs](ssg-mkdocs.md)
 -   [Publish your site with Netlify](pub-netlify.md)
+-   [\_coverpage.md](_coverpage.md)
 
