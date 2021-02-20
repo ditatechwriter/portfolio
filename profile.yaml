@@ -10,5 +10,5 @@ deliverables:
           value: 'yes'
         - name: 'args.css'
           value: 'theme.css'
-        - name: 'args.csspath'
-          path: 'css'
+        - name: 'args.cssroot'
+          path: './'
