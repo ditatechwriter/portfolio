@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keydefs">    
+    <title>Key definitions</title>
+    <keydef keys="product_name">
+        <topicmeta>
+            <linktext><ph>Grunt Master 6000</ph></linktext>
+        </topicmeta>
+    </keydef>
+</map>
