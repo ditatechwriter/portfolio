@@ -1,8 +1,7 @@
 deliverables:
-  - name: 'markdown_github'
+  - name: 'portfolio'
     context:
       input: 'Ddac.ditamap'
-      idref: 'markdown_github'
     output: 'out'
     publication:
       transtype: 'markdown_github'
