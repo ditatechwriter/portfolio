@@ -40,7 +40,7 @@ jobs:
           FOLDER: out # The folder the action should deploy.
           TARGET-FOLDER: docs
           CLEAN-EXCLUDE: theme.css
-                         coverpage.css
+                         coverpage.md
 
  
  notify-slack:
