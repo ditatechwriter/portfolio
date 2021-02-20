@@ -27,8 +27,8 @@ jobs:
           build: dita --project=profile.yaml -v
       - name: move files
         run: |
-         git mv theme.css out/theme.css
-         git mv coverpage.md out/coverpage.md
+         git mv theme.css out
+         git mv coverpage.md out
          git config --global user.email "michael@ditatechwriter.com"
          git config --global user.name "mditatechwriter"
          git commit -m "moved resources"
