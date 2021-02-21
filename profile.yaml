@@ -7,5 +7,5 @@ deliverables:
     publication:
       transtype: 'markdown_github'
       params:
-            name: 'args.rellinks'
+          - name: 'args.rellinks'
             value: 'none'
