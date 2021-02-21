@@ -6,3 +6,6 @@ deliverables:
     output: '.'
     publication:
       transtype: 'markdown_github'
+      params:
+            name: 'args.rellinks'
+            value: 'none'
