@@ -41,6 +41,7 @@ jobs:
           TARGET-FOLDER: docs
           CLEAN-EXCLUDE: theme.css
                          coverpage.md
+                         navbar.md
 
  
  notify-slack:
