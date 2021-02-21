@@ -68,6 +68,17 @@
        errorText  : 'Error',
        successText: 'Copied'
       },
+      EditOnGithubPlugin.create(
+           'https://github.com/ditatechwriter/portfolio/blob/master/',
+            null,
+           function(file) {
+             if (file.indexOf('en') === -1) {
+              return 'Edit Online'
+           } else {
+              return 'edit on git'
+         }
+        }
+       )
     }
   </script>
   <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -76,6 +87,7 @@
   <script src="https://unpkg.com/docsify-copy-code@2"></script>
   <!--script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 </body>
 
 </html>
