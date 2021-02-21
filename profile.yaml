@@ -8,4 +8,4 @@ deliverables:
       transtype: 'markdown_github'
       params:
           - name: 'args.rellinks'
-            value: 'none'
+            value: 'nofamily'
