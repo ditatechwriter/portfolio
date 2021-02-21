@@ -39,8 +39,8 @@ jobs:
           BRANCH: site # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
           TARGET-FOLDER: docs
-          CLEAN-EXCLUDE: theme.css
-                         navbar.md
+          CLEAN-EXCLUDE: navbar.md
+                         coverpage.md
 
  
  notify-slack:
