@@ -1,10 +1,11 @@
 # 
 
-<hr style='width:40%; border-color:#da291c;'>
-<h1 style="color: #da291c">Handbook</h1>
-<p style="color: #da291c">version 0.4</p>
+<hr style='width:40%; border-color:#5e1cda;'>
+<h1 style="color: #5e1cda">Michael McLoughlin</h1>
+<h2 style="color: #5e1cda">Experienced Technical Writer</h1>
+<p style="color: #5e1cda">Welcome to my <strike>mind palace</strike> portfolio site</p>
 
-[GitHub](https://github.com/rcos/rcos-handbook/)
+[GitHub](https://github.com/ditatechwriter/portfolio/)
 [Get Started](#main)
 
 <!-- background color -->
