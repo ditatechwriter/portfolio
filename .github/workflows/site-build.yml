@@ -24,7 +24,7 @@ jobs:
         id: DITA-build
         uses: jason-fox/dita-build-action@master
         with:
-          build: dita --project=profile.yaml --args.rellinks=none
+          build: dita -i Ddac.ditamap -f markdown_github -o out --args.rellinks=none
       - name: Upload DITA
         id: upload
         uses: actions/upload-artifact@v2
@@ -39,20 +39,3 @@ jobs:
           BRANCH: site # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
           TARGET-FOLDER: docs
-          CLEAN-EXCLUDE: navbar.md
-                         coverpage.md
-
- 
- notify-slack:
-   runs-on: ubuntu-latest
-   name: Slack update
-   needs: build-dita
-   steps:
-    - uses: act10ns/slack@v1
-      with:
-        status: ${{ job.status }}
-        steps: ${{ toJson(steps) }}
-        channel: '#gh-actions'
-      if: always()
-      env:
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
