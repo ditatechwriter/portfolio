@@ -1,12 +1,10 @@
 # 
 
-<hr style='width:40%; border-color:#5e1cda;'>
-<h1 style="color: #5e1cda">Michael McLoughlin</h1>
-<h2 style="color: #5e1cda">Experienced Technical Writer</h1>
-<p style="color: #5e1cda">Welcome to my <strike>mind palace</strike> portfolio site</p>
+\[/topic/body/hr \{"- topic/hr "\}\)\(hr\]\[/topic/body/title \{"- topic/title "\}\)Michael McLoughlin\(title\]\[/topic/body/title \{"- topic/title "\}\)Experienced Technical Writer\(title\]
 
-[GitHub](https://github.com/ditatechwriter/portfolio/)
-[Get Started](#main)
+Welcome to my \[/topic/body/p/strike \{"- topic/strike "\}\)mind palace\(strike\] portfolio site
 
-<!-- background color -->
+[GitHub](https://github.com/ditatechwriter/portfolio/) [Get Started](#main)
+
 ![color](#ffffff)
+
