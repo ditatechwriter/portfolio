@@ -1,8 +1,8 @@
-# 
+<h1>Michael McLoughlin</h1>
 
-\[/topic/body/hr \{"- topic/hr "\}\)\(hr\]\[/topic/body/title \{"- topic/title "\}\)Michael McLoughlin\(title\]\[/topic/body/title \{"- topic/title "\}\)Experienced Technical Writer\(title\]
+<h2>Experienced Technical Writer</h2>
 
-Welcome to my \[/topic/body/p/strike \{"- topic/strike "\}\)mind palace\(strike\] portfolio site
+<p>Welcome to my <strike>mind palace</strike> portfolio site</p>
 
 [GitHub](https://github.com/ditatechwriter/portfolio/) [Get Started](#main)
 
