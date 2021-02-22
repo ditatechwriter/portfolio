@@ -1,5 +1,4 @@
 # 
-
 <hr style='width:40%; border-color:#5e1cda;'>
 <h1 style="color: #5e1cda">Michael McLoughlin</h1>
 <h2 style="color: #5e1cda">Experienced Technical Writer</h1>
