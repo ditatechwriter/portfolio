@@ -38,5 +38,3 @@ The third job, `Upload DITA`, uploads the files outputted by the build to a fold
 
 The last job, `Deploy` uses a GitHub action written by [James Ives](https://github.com/JamesIves/github-pages-deploy-action) originally meant to deploy content to a GitHub Pages branch but used here to move to the `docs` folder in the `docsify` branch.
 
-**Parent topic:**[A sample DITA docs-as-code CI/CD pipeline](pubs-pipeline.md)
-

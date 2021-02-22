@@ -20,5 +20,3 @@ The [product_name] represents a leap forward in home exercise technology!
 
 Once built, `[product_name]` will be replaced by "Grunt Master 6000".
 
-**Parent topic:**[Using DITA for docs-as-code](DITA4dac.md)
-

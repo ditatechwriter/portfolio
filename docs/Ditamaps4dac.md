@@ -32,5 +32,3 @@ A sample XDITA map:
 </map>
 ```
 
-**Parent topic:**[Using DITA for docs-as-code](DITA4dac.md)
-

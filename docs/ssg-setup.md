@@ -51,5 +51,3 @@ To set it up to display the content built by the GitHub actions:
 
 To change themes and add more site functionality, see the [Docsify documentation](https://docsify.js.org/#/).
 
-**Parent topic:**[A sample DITA docs-as-code CI/CD pipeline](pubs-pipeline.md)
-

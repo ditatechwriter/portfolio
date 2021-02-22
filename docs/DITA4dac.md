@@ -1,6 +1,6 @@
 # Using DITA for docs-as-code
 
-With the advent of the upcoming Lightweight DITA \(Lw-DITA\) standard, the advantages of the docs-as-code approach can be brought to DITA. Lw-DITA is a simplified form of the DITA standard with only 48 tags in totaland comes in 3 flavors:
+With the advent of the upcoming Lightweight DITA \(Lw-DITA\) 1.0 standard, the advantages of the docs-as-code approach can be brought to DITA. Lw-DITA is a simplified form of the DITA standard with only 48 tags in totaland comes in 3 flavors:
 
 -   XDITA - a subset of the main DITA standard XML elements.
 
@@ -14,19 +14,4 @@ MDITA is the real game changer for docs as code but we will need all 3 variants 
 As with normal Markdown, you can include HTML tags and in this case HDITA tags can be used in MDITA files. The use of HDITA tags allows important DITA features such as content referencing and content filtering. Use of HDITA tags is does not add sufficient complexity to the MDITA source that they interfere with ease of editing for non-DITA savvy reviewer.
 
 As with full-fat DITA, MDITA files are organized into maps. The maps are written in XDITA and would not normally need to be reviewed by non-writers. Maps provide the organizing principle - the navigation table of contents - for a documentation site. Specialized HDITA files holding key definitions or content reference content used in build processing only can also be added to maps along with the MDITA files.
-
--   **[Writing and Reviewing MDITA](write-review-MDITA.md)**  
-
--   **[Creating Ditamaps for MDITA topics](Ditamaps4dac.md)**  
-
--   **[Using keys with MDITA](MDITA-keys.md)**  
-
--   **[Using content references with MDITA](MDITA-conrefs.md)**  
-
--   **[Using filters with MDITA](MDITA-filters.md)**  
-
--   **[Publishing MDITA content](publish-MDITA.md)**  
-
--   **[Test](test.md)**  
-
 

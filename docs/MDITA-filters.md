@@ -30,5 +30,3 @@ The `props` attribute can also used at the map level to filter out whole files f
 <topicref href="somefile.md" format="markdown" props="mac"/>
 ```
 
-**Parent topic:**[Using DITA for docs-as-code](DITA4dac.md)
-

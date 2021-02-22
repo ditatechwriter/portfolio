@@ -2,17 +2,6 @@
 
 What follows is an outline of doc-as-code publication toolchain. This is the toolchain used here to produce this website. Different tools could of course be substituted at various points in the pipeline.
 
--   **[Building output with GitHub Actions](GA-build.md)**  
-
--   **[Send build notifications to Slack](slack-notify.md)**  
-
--   **[Setting up Docsify as your static site generator](ssg-setup.md)**  
-
--   **[Building Content for Gitbook](ssg-gitbook.md)**  
-
--   **[Building Content for MkDocs](ssg-mkdocs.md)**  
-
-
 ## GitHub
 
 I've used GitHub for versioning, writer collaboration, and for technical reviews. Using standard Git workflows makes easy to version documents, and along with Git's pull\_request feature, allows multiple writers to work on the same document without getting in one another's way.
