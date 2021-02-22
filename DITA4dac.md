@@ -4,7 +4,7 @@ id: DITA-as-docs-as-code
 
 # Using DITA for docs-as-code
 
-With the advent of the upcoming Lightweight DITA (Lw-DITA) 1.0 standard, the advantages of the docs-as-code approach can be brought to DITA. Lw-DITA is a simplified form of the DITA standard with only 48 tags in totaland comes in 3 flavors:
+With the advent of the upcoming Lightweight DITA (Lw-DITA) 1.0 standard (sometime in 2021), the advantages of the docs-as-code approach can be brought to DITA. Lw-DITA is a simplified form of the DITA standard with only 48 tags in totaland comes in 3 flavors:
 
 - XDITA - a subset of the main DITA standard XML elements.
 - HDITA - A DITA variant written in HTML5 rather than XML.
