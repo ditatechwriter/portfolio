@@ -4,7 +4,7 @@
 
 <p>Welcome to my <strike>mind palace</strike> portfolio site</p>
 
-[GitHub](https://github.com/ditatechwriter/portfolio/) [Get Started](#main)
+[GitHub](https://github.com/ditatechwriter/portfolio/) [Look around](#main)
 
 ![color](#ffffff)
 
