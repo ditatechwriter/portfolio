@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="Ddac">   
     <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
     <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
