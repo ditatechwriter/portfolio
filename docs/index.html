@@ -41,6 +41,12 @@
         headings: 'h1, h2, h3, h4, h5, h6',
         title: 'On this page',
       },
+      pagination: {
+         previousText: 'previous',
+         nextText: 'next',
+         crossChapter: true,
+         crossChapterText: true,
+     },
       plugins: [
       EditOnGithubPlugin.create('https://github.com/ditatechwriter/portfolio/blob/main/')
       ]
@@ -51,6 +57,7 @@
   <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
   <script src="https://unpkg.com/docsify-copy-code@2"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 
 </html>
