@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
-<map id="Ddac">   
+<map id="Ddac">
+    <topicref href="intro.md" format="markdown" keys="intro"/>   
     <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
     <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
         <topicref format="markdown" href="write-review-MDITA.md" keys="write-MDITA"/>
