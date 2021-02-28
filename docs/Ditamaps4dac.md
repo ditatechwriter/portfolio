@@ -14,6 +14,8 @@ As with standard DITA, you can have a root map that can contain content submaps 
 A sample XDITA map:
 
 ```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="DITAdocs-as-code">    
     <title>DITA and docs as code</title>
     <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>

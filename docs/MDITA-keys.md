@@ -7,7 +7,7 @@ The recommended format for creating a key definition in an XDITA map is:
 ```
 <keydef keys="product_name">
   <topicmeta>
-    <linktext><ph>Grunt Master 6000</ph></linktext>
+    <linktext><ph>Gruntmaster 6000</ph></linktext>
   </topicmeta>
 </keydef>
 ```
@@ -18,5 +18,5 @@ Within an MDITA topic the key is referenced by putting it within square brackets
 The [product_name] represents a leap forward in home exercise technology! 
 ```
 
-Once built, `[product_name]` will be replaced by "Grunt Master 6000".
+Once built, `[product_name]` will be replaced by the string "[Gruntmaster 6000](https://dilbert.fandom.com/wiki/The_Gruntmaster_6000)".
 
