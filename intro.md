@@ -1,6 +1,6 @@
 # Welcome!
 
-<p conref="conref.md#conref-content/self-pic"></p>
+<img src="MichaelMcLoughlin.jpg" outputclass="self-pic">
 
 I'm Michael McLoughlin and I am a technical writer and techical course developer with roughly 15 years experience - principally in the cybersecurity and fintech industries.
 
