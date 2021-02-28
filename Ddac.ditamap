@@ -22,4 +22,5 @@
     <topicref format="ditamap" href="keydefs.ditamap" keys="keydefsmap"
         processing-role="resource-only"/>
     <topicref format="markdown" href="conref.md" keys="conrefs" processing-role="resource-only"/>
+    <topicref href="mac-exclude.ditaval" format="ditaval" processing-role="resource-only"/>
 </map>
