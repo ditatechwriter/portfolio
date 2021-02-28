@@ -1,3 +1,4 @@
+-   [Welcome!](intro.md)
 -   [DITA versus docs-as-code](Dita-dac.md)
 -   [Using DITA for docs-as-code](DITA4dac.md)
     -   [Writing and Reviewing MDITA](write-review-MDITA.md)
