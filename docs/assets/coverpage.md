@@ -5,7 +5,7 @@
 
 <p>Welcome to my <strike>mind palace</strike> portfolio site</p>
 
-[LinkedIn](https://www.linkedin.com/in/michael-m-1960969b/) [Look around](#main)
+[Look around](intro.md)
 
 ![color](#ffffff)
 
