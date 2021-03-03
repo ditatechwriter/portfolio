@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="Ddac">
-    <topicref href="intro.md" format="markdown" keys="intro"/>   
-    <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
-    <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
-        <topicref format="markdown" href="write-review-MDITA.md" keys="write-MDITA"/>
-        <topicref format="markdown" href="Ditamaps4dac.md" keys="MDITA-maps"/>
-        <topicref format="markdown" href="MDITA-keys.md" keys="MDITA-keys"/>
-        <topicref format="markdown" href="MDITA-conrefs.md" keys="MDITA-conrefs"/>
-        <topicref format="markdown" href="MDITA-filters.md" keys="MDITA-filters"/>
-        <topicref format="markdown" href="publish-MDITA.md" keys="publish-MDITA"/>
-        <topicref format="markdown" href="test.md" keys="test"/>
+    <topicref href="intro.md" format="mdita" keys="intro"/>
+    <topicref href="dac.md" format="mdita" keys="dac">
+        <topicref href="md-dac.md" format="mdita" keys="md-dac"/>
+        <topicref href="md-limits.md" format="mdita" keys="md-limits"/>
     </topicref>
-    <topicref format="markdown" href="pubs-pipeline.md" keys="pubs-pipeline">
-        <topicref format="markdown" href="GA-build.md" keys="GA-build"/>
-        <topicref format="markdown" href="slack-notify.md" keys="slack-notify"/>
-        <topicref format="markdown" href="ssg-setup.md" keys="ssg-setup"/>
-        <topicref format="markdown" href="ssg-gitbook.md" keys="ssg-gitbook"/>
-        <topicref format="markdown" href="ssg-mkdocs.md" keys="ssg-mkdocs"/>
+    <topicref href="dac2-0.md" format="mdita" keys="dac2-0">
+        <topicref href="lwdita-overview.md" format="mdita" keys="lwdita-overview"/>
+        <topicref href="MDITA-topics.md" format="markdown" keys="MDITA-topics"/>
+        <topicref href="HDITA-tags.md" format="markdown" keys="HDITA-tags"/>
+    </topicref>   
+    <topicref format="mdita" href="Dita-dac.md" keys="ddac"/>
+    <topicref format="mdita" href="DITA4dac.md" keys="d4dac">
+        <topicref format="mdita" href="write-review-MDITA.md" keys="write-MDITA"/>
+        <topicref format="mdita" href="Ditamaps4dac.md" keys="MDITA-maps"/>
+        <topicref format="mdita" href="MDITA-keys.md" keys="MDITA-keys"/>
+        <topicref format="mdita" href="MDITA-conrefs.md" keys="MDITA-conrefs"/>
+        <topicref format="mdita" href="MDITA-filters.md" keys="MDITA-filters"/>
+        <topicref format="mdita" href="publish-MDITA.md" keys="publish-MDITA"/>
+        <topicref format="mdita" href="test.md" keys="test"/>
     </topicref>
-    <topicref format="markdown" href="pub-netlify.md" keys="pub-netlify"/>
     <topicref format="ditamap" href="keydefs.ditamap" keys="keydefsmap"
         processing-role="resource-only"/>
-    <topicref format="markdown" href="conref.md" keys="conrefs" processing-role="resource-only"/>
+    <topicref format="mdita" href="conref.md" keys="conrefs" processing-role="resource-only"/>
     <topicref href="mac-exclude.ditaval" format="ditaval" processing-role="resource-only"/>
 </map>
