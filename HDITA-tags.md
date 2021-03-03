@@ -50,6 +50,6 @@ HDITA is the HTML5 flavor of LwDITA. Entire topics can be written in HDITA of co
   </tr>
 </table>
 
-Each tag also has one or more attributes but I will refer you to the latest LwDI specification doc for those details.
+Each tag also has one or more attributes but I will refer you to the latest LwDITA specification doc for those details.
 
 Many of the tags do have Markdown counterparts so why would you use them? Well, the short answer is for encapsulating text you want to reuse or filter. We'll look at that in more detail further on.
