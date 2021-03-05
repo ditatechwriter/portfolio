@@ -7,5 +7,5 @@
             <linktext><ph>Grunt Master 6000</ph></linktext>
         </topicmeta>
     </keydef>    
-    <topicref href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" ></topicref>
+    <topicref href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" processing-role="resource-only" keys="lwDITA-Spec" format="pdf" scope="external"></topicref>
 </map>
