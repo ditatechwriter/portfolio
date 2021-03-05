@@ -1,7 +1,3 @@
----
-id: intro
----
-
 # Welcome!
 
 ![](assets/MichaelMcLoughlin.jpg)
