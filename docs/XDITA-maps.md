@@ -15,7 +15,7 @@ Maps basically have 5 tag types:
 -   <navtitle\> - an alternate title for a topic
 
 
-In addition, each tag can have a range of attributes. For more information, see the \[Lightweight DITA Specification\]\(https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf\).
+In addition, each tag can have a range of attributes. For more information, see the Lightweight DITA specification.
 
 Here is a sample map written in XDITA, the XML flavor of LwDITA:
 
