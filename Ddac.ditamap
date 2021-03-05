@@ -26,4 +26,5 @@
         processing-role="resource-only"/>
     <topicref format="markdown" href="conref.md" keys="conrefs" processing-role="resource-only"/>
     <topicref href="mac-exclude.ditaval" format="ditaval" processing-role="resource-only"/>
+    <keydef keys="LwDITA-Spec" href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" scope="external" format="pdf"/>
 </map>
