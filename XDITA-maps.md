@@ -11,7 +11,7 @@ Maps basically have 5 tag types:
 - \<keydef\> - a key definition (we'll look at keys in more depth later)
 - \<navtitle\> - an alternate title for a topic
 
-In addition, each tag can have a range of attributes. See [Lightwight DITA specification](LwDITA-Spec)
+In addition, each tag can have a range of attributes. For more information, see the [LwDITA-spec].
 
 Here is a sample map written in XDITA, the XML flavor of LwDITA:
 ```

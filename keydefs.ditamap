@@ -5,6 +5,11 @@
         <topicmeta>
             <linktext><ph>Grunt Master 6000</ph></linktext>
         </topicmeta>
-    </keydef>    
-    <topicref href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" processing-role="resource-only" keys="LwDITA-Spec" format="pdf" scope="external"></topicref>
+    </keydef>
+    
+    <keydef keys="LwDITA-Spec">
+        <topicmeta>
+            <linktext><ph><xref href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" scope="external" format="pdf"/></ph></linktext>
+        </topicmeta>
+    </keydef> 
 </map>
