@@ -10,6 +10,7 @@
         <topicref href="lwdita-overview.md" format="markdown" keys="lwdita-overview"/>
         <topicref href="MDITA-topics.md" format="markdown" keys="MDITA-topics"/>
         <topicref href="HDITA-tags.md" format="markdown" keys="HDITA-tags"/>
+        <topicref href="XDITA-maps.md" format="markdown" keys="XDITA-maps"/>
     </topicref>   
     <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
     <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
