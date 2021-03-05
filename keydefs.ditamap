@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="keydefs">    
-    <title>Key definitions</title>
     <keydef keys="product_name">
         <topicmeta>
             <linktext><ph>Grunt Master 6000</ph></linktext>
         </topicmeta>
     </keydef>    
-    <topicref href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" processing-role="resource-only" keys="lwDITA-Spec" format="pdf" scope="external"></topicref>
+    <topicref href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" processing-role="resource-only" keys="LwDITA-Spec" format="pdf" scope="external"></topicref>
 </map>
