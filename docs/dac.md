@@ -10,8 +10,10 @@ For Gentle and other proponents, docs-as-code means treating documentation in ex
 
 -   > Ensure that a trusted set of reviewers meticulously reviews the docs
 
--   > Publish the artifacts without much human intervention \(Gentle *et. al*, 2016\)
+-   > Publish the artifacts without much human intervention
 
+
+> \(Gentle *et. al*, 2016\)
 
 Going even further, the docs-as-code approach allows technical writers to:
 
