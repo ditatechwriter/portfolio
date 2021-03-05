@@ -6,5 +6,9 @@
             <linktext><ph>Grunt Master 6000</ph></linktext>
         </topicmeta>
     </keydef>
-    
+    <keydef keys="LwDITA-Spec" href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" scope="external" format="pdf">
+        <topicmeta>
+            <linktext>Lightweight DITA Specification</linktext>
+        </topicmeta>
+    </keydef>
 </map>
