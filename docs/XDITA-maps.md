@@ -51,7 +51,7 @@ Here is a sample map written in XDITA, the XML flavor of LwDITA:
 </map>
 ```
 
-Note that each markdown file is identified using a *href* attribute in a topic reference tag. Note also that the format attribute defines the file type as *markdown*. Use `format="markdown"` to indicate the file is to be processed as "extended" MDITA - in other words allowing the features that go beyond what is permitted in simple GitHub-flavored Markdown. See [MDITA-topics.md](MDITA-topics.md) for a fuller discussion of "extended" MDITA.
+Note that each markdown file is identified using a *href* attribute in a topic reference tag. Note also that the format attribute defines the file type as *markdown*. Use `format="markdown"` to indicate the file is to be processed as "extended" MDITA - in other words allowing the features that go beyond what is permitted in simple GitHub-flavored Markdown. See [MDITA topics](MDITA-topics.md) for a fuller discussion of "extended" MDITA.
 
 One topic reference has `format="ditamap"`, meaning that I have embedded another map within this map. In this case it is for key definitions but yo ucould just as easily add a submap of topic references.
 
