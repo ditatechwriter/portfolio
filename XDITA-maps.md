@@ -47,9 +47,9 @@ Here is a sample map written in XDITA, the XML flavor of LwDITA:
 ```
 Note that each markdown file is identified using a *href* attribute in a topic reference tag. Note also that the format attribute defines the file type as *markdown*. Use `format="markdown"` to indicate the file is to be processed as "extended" MDITA - in other words allowing the features that go beyond what is permitted in simple GitHub-flavored Markdown. See [MDITA-topics] for a fuller discussion of "extended" MDITA.
 
-One topic reference has `format="ditamap"`, meaning that I have embedded another map within this map. In this case it is for key definitions but yo ucould just as easily add a submap of topic references.
+One topic reference has `format="ditamap"`, meaning that I have embedded another map within this map. In this case it is for key definitions but you could just as easily add a submap of topic references.
 
 I have given each topic reference the above example a key using the *keys* attribute. This is optional and I'll explain the use of keys further on.
 
-Some topic references are have `processing-role="resource-only"`. The resource-only processing role tells the DITA-OT to use this file during the build but not to add it to the index.md TOC.
+Some topic references have `processing-role="resource-only"`. The resource-only processing role tells the DITA-OT to use this file during the build but not to add it to the index.md TOC.
 
