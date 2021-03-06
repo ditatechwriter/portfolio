@@ -8,7 +8,11 @@
     </topicref>
     <topicref href="dac2-0.md" format="markdown" keys="dac2-0">
         <topicref href="lwdita-overview.md" format="markdown" keys="lwdita-overview"/>
-        <topicref href="MDITA-topics.md" format="markdown" keys="MDITA-topics"/>
+        <topicref href="MDITA-topics.md" format="markdown" keys="MDITA-topics">
+            <topicmeta>
+                <navtitle>MDITA topics</navtitle>
+            </topicmeta>
+        </topicref>
         <topicref href="HDITA-tags.md" format="markdown" keys="HDITA-tags"/>
         <topicref href="XDITA-maps.md" format="markdown" keys="XDITA-maps"/>
     </topicref>   
