@@ -11,4 +11,9 @@
             <linktext>Lightweight DITA Specification</linktext>
         </topicmeta>
     </keydef>
+    <keydef keys="gruntmaster-downloads" href="https://gruntmaster6000.com/downloads" scope="external" format="html">
+        <topicmeta>
+            <linktext>Downloads</linktext>
+        </topicmeta>
+    </keydef>
 </map>

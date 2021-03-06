@@ -56,7 +56,7 @@ The recommended format for defining a key for an external link is:
 
 </map>
 ```
-<p data-class="note">The *scope* attributes must be set to *external* and the format attribute to the file type (usually html) of the external resource.</p>
+Note that the *scope* attributes must be set to *external* and the format attribute to the file type (usually *html*) of the external resource.
 
 In your MDITA topic you can then refer to the site via its key wthin square brackets rather than a URL, for example:
 ```
