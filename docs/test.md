@@ -23,7 +23,7 @@ Mac too
 
 Follow the instructions below to install the Grunt Master 6000 companion app:
 
--   First, download the appropriate installer for your operating system from the \[product\_name\] website \[gruntmaster-downloads\] page.
+-   First, download the appropriate installer for your operating system from the Grunt Master 6000 website  page.
 
 -   Double-click on the installer, and follower the installation wizard instructions.
 
