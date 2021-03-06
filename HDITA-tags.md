@@ -1,3 +1,7 @@
+---
+id:HDITA-tags
+---
+
 # HDITA tags in MDITA topics
 
 HDITA is the HTML5 flavor of LwDITA. Entire topics can be written in HDITA of course but we are interested here in those tags that can be used to augment functionality in MDITA topics. The following HDITA/HTML5 tags can be used in MDITA

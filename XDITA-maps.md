@@ -1,3 +1,7 @@
+---
+id: XDITA-maps
+---
+
 # Organizing MDITA topics with XDITA maps
 
 If you are only used to writing in Markdown, you probably use a file in your static site generator to give a navigation order to your Markdown files. A map in LwDITA does exactly the same thing, and when built, the map is outputted as a file (index.md) that can be used by an SSG as a navigation TOC.

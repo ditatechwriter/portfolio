@@ -3,20 +3,56 @@
 <map id="Ddac">
     <topicref href="intro.md" format="markdown" keys="intro"/>
     <topicref href="dac.md" format="markdown" keys="dac">
-        <topicref href="md-dac.md" format="markdown" keys="md-dac"/>
-        <topicref href="md-limits.md" format="markdown" keys="md-limits"/>
+        <topicmeta>
+            <navtitle>Docs-as-code</navtitle>
+        </topicmeta>
+        <topicref href="md-dac.md" format="markdown" keys="md-dac">
+            <topicmeta>
+                <navtitle>Markdown and docs-as-code</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="md-limits.md" format="markdown" keys="md-limits">
+            <topicmeta>
+                <navtitle>What Markdown cannot do</navtitle>
+            </topicmeta>
+        </topicref>
     </topicref>
     <topicref href="dac2-0.md" format="markdown" keys="dac2-0">
-        <topicref href="lwdita-overview.md" format="markdown" keys="lwdita-overview"/>
+        <topicref href="lwdita-overview.md" format="markdown" keys="lwdita-overview">
+            <topicmeta>
+                <navtitle>Lightweight DITA</navtitle>
+            </topicmeta>
+        </topicref>
         <topicref href="MDITA-topics.md" format="markdown" keys="MDITA-topics">
             <topicmeta>
                 <navtitle>MDITA topics</navtitle>
             </topicmeta>
         </topicref>
-        <topicref href="HDITA-tags.md" format="markdown" keys="HDITA-tags"/>
-        <topicref href="XDITA-maps.md" format="markdown" keys="XDITA-maps"/>
-        <topicref format="markdown" href="MDITA-keys.md" keys="MDITA-keys"/>
-        <topicref format="markdown" href="MDITA-conrefs.md" keys="MDITA-conrefs"/>
+        <topicref href="HDITA-tags.md" format="markdown" keys="HDITA-tags">
+            <topicmeta>
+                <navtitle>HDITA tags in MDITA topics</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="XDITA-maps.md" format="markdown" keys="XDITA-maps">
+            <topicmeta>
+                <navtitle>Organizing MDITA topics with XDITA maps</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref format="markdown" href="MDITA-keys.md" keys="MDITA-keys">
+            <topicmeta>
+                <navtitle>Using keys with MDITA</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref format="markdown" href="MDITA-conrefs.md" keys="MDITA-conrefs">
+        <topicmeta>
+            <navtitle>Using content references with MDITA</navtitle>
+        </topicmeta>
+    </topicref>
+        <topicref href="LwDITA-toolchain.md" format="markdown" keys="LwDITA-toolchain">
+            <topicmeta>
+                <navtitle>A Lightweight DITA toolchain</navtitle>
+            </topicmeta>
+        </topicref>
     </topicref>   
     <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
     <topicref format="markdown" href="DITA4dac.md" keys="d4dac">

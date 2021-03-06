@@ -25,7 +25,7 @@ id: conref-content
 ```
 To reference the shared content within an MDITA markdown file, an HDITA tag must be used along with the *id* attribute set. Note also the use of the \<span\> tags to reference keys. Because the conref content is HTML5, we cannot use Markdown mark-up for key referencing. If you want to reference a key within conref snippet use the format `\<span keyref="somekey"\>\</span\>`.
 
-To use snippet in the conref warehouse file add a \<p\> tag with a *conref* attribute value that uses the following format TOPIC FILE NAME#TOPIC ID/TAG ID. For example:
+To use snippet in the conref warehouse file add a \<p\> tag with a *conref* attribute value that uses the following format CONREF SOURCE FILE NAME#TOPIC ID/TAG ID. For example:
 ```
 ## Installing the [product_name] companion app
 

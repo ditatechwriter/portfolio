@@ -1,3 +1,7 @@
+---
+id:md-dac
+---
+
 # Markdown and docs-as-code
 
 Most docs-as-code practitioners favor a plain-text format for writing their docs. Although it is possible to XML formats such as [DITA](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) or [Docbook](https://en.wikipedia.org/wiki/DocBook) in a doc-as-code set-up, the need of specialist tools to validate the XML, and the general unreadability of heavily tagged documents make them a less popular choice. 

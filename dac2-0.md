@@ -1,3 +1,7 @@
+---
+id:dac2
+---
+
 # Docs-as-code 2.0
 
 A docs-as-code approach as it is usually deployed in software companies today has several significant challenges.
