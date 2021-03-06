@@ -15,7 +15,7 @@ Maps basically have 5 tag types:
 -   <navtitle\> - an alternate title for a topic
 
 
-In addition, each tag can have a range of attributes. For more information, see the [Lightweight DITA Specification](https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf).
+In addition, each tag can have a range of attributes. For more information, see the latest [Lightweight DITA Specification](https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf).
 
 Here is a sample map written in XDITA, the XML flavor of LwDITA:
 
@@ -23,30 +23,39 @@ Here is a sample map written in XDITA, the XML flavor of LwDITA:
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="portfolio-map">
-    <topicref href="intro.md" format="mdita" keys="intro"/>
-    <topicref href="dac.md" format="mdita" keys="dac">
-        <topicref href="md-dac.md" format="mdita" keys="md-dac"/>
-        <topicref href="md-limits.md" format="mdita" keys="md-limits"/>
+    <topicref href="intro.md" format="markdown" keys="intro"/>
+    <topicref href="dac.md" format="markdown" keys="dac">
+        <topicref href="md-dac.md" format="markdown" keys="md-dac"/>
+        <topicref href="md-limits.md" format="markdown" keys="md-limits"/>
     </topicref>
-    <topicref href="dac2-0.md" format="mdita" keys="dac2-0">
-        <topicref href="lwdita-overview.md" format="mdita" keys="lwdita-overview"/>
+    <topicref href="dac2-0.md" format="markdown" keys="dac2-0">
+        <topicref href="lwdita-overview.md" format="markdown" keys="lwdita-overview"/>
         <topicref href="MDITA-topics.md" format="markdown" keys="MDITA-topics"/>
         <topicref href="HDITA-tags.md" format="markdown" keys="HDITA-tags"/>
+        <topicref href="XDITA-maps.md" format="markdown" keys="XDITA-maps"/>
     </topicref>   
-    <topicref format="mdita" href="Dita-dac.md" keys="ddac"/>
-    <topicref format="mdita" href="DITA4dac.md" keys="d4dac">
-        <topicref format="mdita" href="write-review-MDITA.md" keys="write-MDITA"/>
-        <topicref format="mdita" href="Ditamaps4dac.md" keys="MDITA-maps"/>
-        <topicref format="mdita" href="MDITA-keys.md" keys="MDITA-keys"/>
-        <topicref format="mdita" href="MDITA-conrefs.md" keys="MDITA-conrefs"/>
-        <topicref format="mdita" href="MDITA-filters.md" keys="MDITA-filters"/>
-        <topicref format="mdita" href="publish-MDITA.md" keys="publish-MDITA"/>
-        <topicref format="mdita" href="test.md" keys="test"/>
+    <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
+    <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
+        <topicref format="markdown" href="write-review-MDITA.md" keys="write-MDITA"/>
+        <topicref format="markdown" href="Ditamaps4dac.md" keys="MDITA-maps"/>
+        <topicref format="markdown" href="MDITA-keys.md" keys="MDITA-keys"/>
+        <topicref format="markdown" href="MDITA-conrefs.md" keys="MDITA-conrefs"/>
+        <topicref format="markdown" href="MDITA-filters.md" keys="MDITA-filters"/>
+        <topicref format="markdown" href="publish-MDITA.md" keys="publish-MDITA"/>
+        <topicref format="markdown" href="test.md" keys="test"/>
     </topicref>
     <topicref format="ditamap" href="keydefs.ditamap" keys="keydefsmap"
         processing-role="resource-only"/>
-    <topicref format="mdita" href="conref.md" keys="conrefs" processing-role="resource-only"/>
+    <topicref format="markdown" href="conref.md" keys="conrefs" processing-role="resource-only"/>
     <topicref href="mac-exclude.ditaval" format="ditaval" processing-role="resource-only"/>
 </map>
 ```
+
+Note that each markdown file is identified using a *href* attribute in a topic reference tag. Note also that the format attribute defines the file type as *markdown*. Use `format="markdown"` to indicate the file is to be processed as "extended" MDITA - in other words allowing the features that go beyond what is permitted in simple GitHub-flavored Markdown. See [MDITA-topics.md](MDITA-topics.md) for a fuller discussion of "extended" MDITA.
+
+One topic reference has `format="ditamap"`, meaning that I have embedded another map within this map. In this case it is for key definitions but yo ucould just as easily add a submap of topic references.
+
+I have given each topic reference the above example a key using the *keys* attribute. This is optional and I'll explain the use of keys further on.
+
+Some topic references are have `processing-role="resource-only"`. The resource-only processing role tells the DITA-OT to use this file during the build but not to add it to the index.md TOC.
 

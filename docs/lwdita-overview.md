@@ -1,6 +1,6 @@
 # Lightweight DITA
 
-With the advent of the upcoming [Lightweight DITA](https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf) \(LwDITA\) 1.0 standard \(sometime hopefully in early 2022\), some of the advantages of a heavy-weight documentation solution like DITA can be applied to Markdown content.
+With the advent of the upcoming Lightweight DITA 1.0 standard \(sometime hopefully in early 2022\), some of the advantages of a heavy-weight documentation solution like DITA can be applied to Markdown content.
 
 LwDITA is a simplified form of the DITA standard with only 48 tags in total and comes in 3 flavors:
 
@@ -10,6 +10,8 @@ LwDITA is a simplified form of the DITA standard with only 48 tags in total and 
 
 -   MDITA - A DITA variant written in Markdown rather than XML. This is based on GitHub-flavored Markdown but incorporates MultiMarkdown features for tables.
 
+
+For more information see the latest [Lightweight DITA Specification](https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf).
 
 Gone from LwDITA is any notion of information typing. There are only two file types: map and topic.
 
