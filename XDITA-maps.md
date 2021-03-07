@@ -4,56 +4,79 @@ id: XDITA-maps
 
 # Organizing MDITA topics with XDITA maps
 
-If you are only used to writing in Markdown, you probably use a file in your static site generator to give a navigation order to your Markdown files. A map in LwDITA does exactly the same thing, and when built, the map is outputted as a file (index.md) that can be used by an SSG as a navigation TOC.
+Maps in Lightweight DITA provide a relationship structure for your topics (rather like a table of contents), and also provide a processing context for resuable content.
 
-A map also has another important uses: it provides a place where variablized content can be stored, where files containing shared content can be referenced, and where content filter files can be located.
+If you are used to publishing your Markdown content using a static site generator (SSG), you probably use an SSG file to give a navigation order to your Markdown files. A map in LwDITA does exactly the same thing, and when built, the map is outputted as a file (index.md) that can be used by some SSGs as a navigation TOC.
 
-Maps basically have 5 tag types:
+XDITA maps use the `.ditamap` file extension.
 
-- \<map\> - a container for the map tags
-- \<topicref\> - a reference to topic
-- \<keydef\> - a key definition (we'll look at keys in more depth later)
-- \<navtitle\> - an alternate title for a topic
-
-In addition, each tag can have a range of attributes. For more information, see the latest [LwDITA-Spec].
-
-Here is a sample map written in XDITA, the XML flavor of LwDITA:
+A simple XDITA map:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="portfolio-map">
-    <topicref href="intro.md" format="markdown" keys="intro"/>
-    <topicref href="dac.md" format="markdown" keys="dac">
-        <topicref href="md-dac.md" format="markdown" keys="md-dac"/>
-        <topicref href="md-limits.md" format="markdown" keys="md-limits"/>
+    <topicref href="intro.md" format="markdown"/>
+    <topicref href="dac.md" format="markdown">
+        <topicref href="md-dac.md" format="markdown"/>
+        <topicref href="md-limits.md" format="markdown">
     </topicref>
-    <topicref href="dac2-0.md" format="markdown" keys="dac2-0">
-        <topicref href="lwdita-overview.md" format="markdown" keys="lwdita-overview"/>
-        <topicref href="MDITA-topics.md" format="markdown" keys="MDITA-topics"/>
-        <topicref href="HDITA-tags.md" format="markdown" keys="HDITA-tags"/>
-        <topicref href="XDITA-maps.md" format="markdown" keys="XDITA-maps"/>
+    <topicref href="dac2-0.md" format="markdown">
+        <topicref href="lwdita-overview.md" format="markdown"/>
+        <topicref href="MDITA-topics.md" format="markdown"/>
+        <topicref href="HDITA-tags.md" format="markdown"/>
+        <topicref href="XDITA-maps.md" format="markdown">
     </topicref>   
-    <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
-    <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
-        <topicref format="markdown" href="write-review-MDITA.md" keys="write-MDITA"/>
-        <topicref format="markdown" href="Ditamaps4dac.md" keys="MDITA-maps"/>
-        <topicref format="markdown" href="MDITA-keys.md" keys="MDITA-keys"/>
-        <topicref format="markdown" href="MDITA-conrefs.md" keys="MDITA-conrefs"/>
-        <topicref format="markdown" href="MDITA-filters.md" keys="MDITA-filters"/>
-        <topicref format="markdown" href="publish-MDITA.md" keys="publish-MDITA"/>
-        <topicref format="markdown" href="test.md" keys="test"/>
+    <topicref format="markdown" href="Dita-dac.md"/>
+    <topicref format="markdown" href="DITA4dac.md">
+        <topicref format="markdown" href="write-review-MDITA.md"/>
+        <topicref format="markdown" href="Ditamaps4dac.md"/>
+        <topicref format="markdown" href="MDITA-keys.md"/>
+        <topicref format="markdown" href="MDITA-conrefs.md"/>
+        <topicref format="markdown" href="MDITA-filters.md"/>
+        <topicref format="markdown" href="publish-MDITA.md">
+        <topicref format="markdown" href="test.md"/>
     </topicref>
-    <topicref format="ditamap" href="keydefs.ditamap" keys="keydefsmap"
-        processing-role="resource-only"/>
-    <topicref format="markdown" href="conref.md" keys="conrefs" processing-role="resource-only"/>
-    <topicref href="mac-exclude.ditaval" format="ditaval" processing-role="resource-only"/>
+    <topicref format="ditamap" href="othercontent.ditamap"/>
 </map>
 ```
-Note that each markdown file is identified using a *href* attribute in a topic reference tag. Note also that the format attribute defines the file type as *markdown*. Use `format="markdown"` to indicate the file is to be processed as "extended" MDITA - in other words allowing the features that go beyond what is permitted in simple GitHub-flavored Markdown. See [MDITA-topics] for a fuller discussion of "extended" MDITA.
+Let's break it down for the benefit of folks with no XML experience. The first two lines contain the XML and Doctype decalarations:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
+```
+These contain information used by the XML parser in your editor and the DITA Open Toolkit. Every XDITA map must begin with these two lines but, other than ensuring that, you don't need to worry about them.
 
-One topic reference has `format="ditamap"`, meaning that I have embedded another map within this map. In this case it is for key definitions but you could just as easily add a submap of topic references.
+Next comes the `<map>` element (or "tag"). The `<map>` element is a container for all the other elements in the map. it is usually a good idea to apply an `id` attribute to the map tag to differentiate it from any other maps you use.
+```
+<map id="portfolio-map">
 
-I have given each topic reference the above example a key using the *keys* attribute. This is optional and I'll explain the use of keys further on.
+...
 
-Some topic references have `processing-role="resource-only"`. The resource-only processing role tells the DITA-OT to use this file during the build but not to add it to the index.md TOC.
+</map>
+```
+
+Nested within the `<map>` element in our example are `<topicref>` (topic reference) elements. The `<topicref>` element, as the name suggests, refers to a topic.
+```
+<topicref href="lwdita-overview.md" format="markdown"/>
+
+...
+
+<topicref format="ditamap" href="othercontent.ditamap"/>
+```
+
+
+The `href` attribute is used to indicate the path to the topic relative to the map file. In this case, the topics are all in the same folder as the map.
+
+The `format` attribute is used by the DITA-OT during processing. For MDITA files there are two `format` attribute values you can set: `markdown` or `mdita`. If you apply `format="markdown"`, the DITA-OT knows that the file contains "extended profile MDITA". Extended profile MDITA can incorporate extensions from Markdown Extra (definition lists and footnotes), Pandoc (YAML front-matter headers) and HDITA element types. If you apply `format="mdita"`, the DITA-OT knows that the content is 'core profile MDITA' which aligns more strictly with GitHub-flavored Markdown. To take fuller advantage of the content reuse features of MDITA, using extended profile MDITA is strongly recommended. See [MDITA-topics] for a fuller discussion of extended profile MDITA.
+
+You can also nest other XDITA maps within a map using `format="ditamap"`. A map that contains other maps is known as a *root map*. A map contained within another map is called a *submap*.
+
+The order that `topicref` elements appear top-to-bottom defines the order that topics will be presented in your document. You can also nest `topicref` elements within another `topicref` element. Nesting is useful for gathering topics that sure a general theme. In a navigation sidebar on documentation website, nested topics appear at a lower level than their parent.
+
+Simple XDITA map converted to a navigation sidebar TOC in Docsify:
+<!-- Add a better image of docsify toc here -->
+
+
+In addition, each tag can have a range of attributes. For more information, see the latest [LwDITA-Spec].
+
 

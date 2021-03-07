@@ -48,6 +48,7 @@
             <navtitle>Using content references with MDITA</navtitle>
         </topicmeta>
     </topicref>
+        <topicref format="markdown" href="MDITA-filters.md" keys="MDITA-filters"/>
         <topicref href="LwDITA-toolchain.md" format="markdown" keys="LwDITA-toolchain">
             <topicmeta>
                 <navtitle>A Lightweight DITA toolchain</navtitle>
@@ -58,7 +59,6 @@
     <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
         <topicref format="markdown" href="write-review-MDITA.md" keys="write-MDITA"/>
         <topicref format="markdown" href="Ditamaps4dac.md" keys="MDITA-maps"/>
-        <topicref format="markdown" href="MDITA-filters.md" keys="MDITA-filters"/>
         <topicref format="markdown" href="publish-MDITA.md" keys="publish-MDITA"/>
         <topicref format="markdown" href="test.md" keys="test"/>
     </topicref>

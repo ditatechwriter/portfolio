@@ -12,7 +12,7 @@ At time of writing (with about a year to go until the Lightweight DITA 1.0 stand
 
 To write Lightweight DITA in the formats I discuss here, all you need is an text editor capable of handling Markdown and XML. Common open-source progamming editors like Atom, Visual Studio Code, or Eclipse all have plugins that permit you to work in Markdown and XML.
 
-## Managing content in a versio control system
+## Managing content in a version control system
 
 Many software house use an online host for their code repositories based on Git. GitHub is perhaps the most popular, along with Gitlab and BitBucket.
 
@@ -25,7 +25,7 @@ The DITA Open Toolkit (DITA-OT) supports the conversion of MDITA files into HTML
 There are many options to choose from here from CircleCI, TravisCI, and the one I use for this site, GitHub Actions. All of these can be used to build and lint content.
 
 ## Displaying content using static site generators
-Because MDITA files can be outputted as Markdown there many options for using MDITA outputs with static site generators (SSGs).MDITA content can be added to the following SSGs:
+Because MDITA files can be outputted as Markdown there many options for using MDITA outputs with static site generators (SSGs). MDITA content can be added to the following SSGs:
 
 - Gitbook/MDBook
 - Docsify
