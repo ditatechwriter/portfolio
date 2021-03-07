@@ -22,7 +22,7 @@ The recommended format for creating a key definition in an keydefs map is:
     
     <keydef keys="product_name">
         <topicmeta>
-            <linktext><ph>Gruntmaster 6000</ph></linktext>
+            <linktext><ph>Acme Meme Maker 2000</ph></linktext>
         </topicmeta>
     </keydef>
 
@@ -34,7 +34,7 @@ Within an MDITA topic the key is referenced by putting it within square brackets
 ```
 The [product_name] represents a leap forward in home exercise technology! 
 ```
-Once built, `\[product_name\]` will be replaced by the string "Gruntmaster 6000".
+Once built, `[product_name]` will be replaced by the string "Acme Meme Maker 2000".
 
 ## Using keys for external links
 
@@ -46,9 +46,9 @@ The recommended format for defining a key for an external link is:
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="keydefs-map">  
 
-  <keydef keys="gruntmaster-userguide" href="https://www.gruntmaster6000.com/userguide/index.html" scope="external" format="html">
+  <keydef keys="mememaker-userguide" href="https://www.mememaker2000.acme.com/userguide/index.html" scope="external" format="html">
     <topicmeta>
-        <linktext>Gruntmaster 6000 user guide</linktext>
+        <linktext>Acme Meme Maker 2000 user guide</linktext>
     </topicmeta>
   </keydef>
 
@@ -60,11 +60,11 @@ Note that the *scope* attributes must be set to *external* and the format attrib
 
 In your MDITA topic you can then refer to the site via its key wthin square brackets rather than a URL, for example:
 ```
-For more information, see [gruntmaster-userguide].
+For more information, see [mememaker-userguide].
 ```
 Once built, the final Markdown output is:
 ```
-For more information, see [Gruntmaster 6000 user guide](https://www.gruntmaster6000.com/userguide/index.html).
+For more information, see [Acme Meme Maker 2000 user guide](https://www.mememaker2000.acme.com/userguide/index.html).
 ```
 
 ## Using keys for internal links
@@ -77,9 +77,8 @@ You do not need to use a separate key definition map to set a ket for an interna
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="root-map"> 
 
-  <topicref href="MDITA-topics.md" format="markdown" keys="MDITA-topics">
-     <topicmeta>
-        <navtitle>MDITA topics</navtitle>
+  <topicref href="get-started.md" format="markdown" keys="get-started">
+        <navtitle>Getting started with Acme Meme Maker 2000</navtitle>
      </topicmeta>
   </topicref>
 
@@ -89,11 +88,11 @@ You do not need to use a separate key definition map to set a ket for an interna
 ```
 The keys attribure in the topicref tag is used to set the key. A *navtitle* tag containing the topic title needs to be added within *topicmeta* tags so that the topic title is used for the link and not the file name. In a topic the internal file is referenced as follows:
 ```
-For more information, see [MDITA-topics].
+For more information, see [get-started].
 ```
 Once built, the final Markdown output is:
 ```
-For more information, see [MDITA topics](MDITA-topics.md).
+For more information, see [Getting started with Acme Meme Maker 2000](get-started.md).
 ```
 
 
