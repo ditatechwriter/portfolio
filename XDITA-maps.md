@@ -75,7 +75,7 @@ The order that `topicref` elements appear top-to-bottom defines the order that t
 
 Simple XDITA map converted to a navigation sidebar TOC in Docsify:
 <!-- Add a better image of docsify toc here -->
-
+![A sample navigation sidebar created from a ditamap in Docsify](assets/sidebar.png)
 
 In addition, each tag can have a range of attributes. For more information, see the latest [LwDITA-Spec].
 
