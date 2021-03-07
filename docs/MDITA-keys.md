@@ -4,7 +4,7 @@ Keys in DITA provide an means of indirect referencing. A key is way to provide a
 
 Keys are defined in a ditamap. They can be added to a root map or - if there are many - contained in a dedicated key definitions map of their own which is referenced in the root map.
 
-A key definitions map added as a submap to your main root ditamap is useful way to manage keys. it uses *keydef* tags rather than *topicref* tags. By default *keydef* tags have their *processing-role* attributes set to *resource-only*, so the content of a key definition map never appears in the navigation TOC.
+A key definitions map added as a submap to your main root ditamap is useful way to manage keys. It uses *keydef* tags rather than *topicref* tags. By default *keydef* tags have their *processing-role* attributes set to *resource-only*, so the content of a *keydef* tag never appears in the navigation TOC.
 
 ## Using keys for text variables
 
@@ -19,7 +19,7 @@ The recommended format for creating a key definition in an keydefs map is:
     
     <keydef keys="product_name">
         <topicmeta>
-            <linktext><ph>Grunt Master 6000</ph></linktext>
+            <linktext><ph>Gruntmaster 6000</ph></linktext>
         </topicmeta>
     </keydef>
 
