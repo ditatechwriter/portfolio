@@ -17,7 +17,7 @@ A simple XDITA map for Acme Meme Maker 2000 - a software product for people with
 <map id="mememaker-map">
     <topicref href="about.md" format="markdown"/>
     <topicref href="get-started.md" format="markdown">
-        <topicref href="sysreqs.md" format="markdown"/>
+        <topicref href="sys-reqs.md" format="markdown"/>
         <topicref href="install.md" format="markdown"/>
         <topicref href="update.md" format="markdown"/>
         <topicref href="uninstall.md" format="markdown"/>         
@@ -65,10 +65,9 @@ You can also nest other XDITA maps within a map using `format="ditamap"`. A map 
 
 The order that `topicref` elements appear top-to-bottom defines the order that topics will be presented in your document. You can also nest `topicref` elements within another `topicref` element. Nesting is useful for gathering topics that share a general theme. In a navigation sidebar on a documentation website, nested topics appear at a lower level than their parent.
 
-Simple XDITA map converted to a navigation sidebar TOC in Docsify:
-<!-- Add a better image of docsify toc here -->
-![A sample navigation sidebar created from a ditamap in Docsify](assets/sidebar.png)
+The [product_name] map converted to a navigation sidebar TOC in Docsify:
+![A sample navigation sidebar created from a ditamap](assets/sidebar.png)
 
-In addition, each tag can have a range of attributes. For more information, see the latest [LwDITA-Spec].
+There are a few more XDITA map elements and attributes than shown here, some of which we will explore in [MDITA-keys]. For a comprehensive list, see the [LwDITA-Spec].
 
 

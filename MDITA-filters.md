@@ -19,7 +19,7 @@ The following operating systems are supported by the [product_name] lite edition
   <li props="bsd">FreeBSD 11.4 or higher</li>
 </ul>
 ```
-To filter out the first list item, the ditaval filter file `nix_exclude.ditaval` used by the build instruction is:
+To filter out the last 2 list items, the ditaval filter file `nix_exclude.ditaval` used by the build instruction is:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <val>

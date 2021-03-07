@@ -48,19 +48,56 @@
             <navtitle>Using content references with MDITA</navtitle>
         </topicmeta>
     </topicref>
-        <topicref format="markdown" href="MDITA-filters.md" keys="MDITA-filters"/>
-        <topicref href="LwDITA-toolchain.md" format="markdown" keys="LwDITA-toolchain">
+        <topicref format="markdown" href="MDITA-filters.md" keys="MDITA-filters">
             <topicmeta>
-                <navtitle>A Lightweight DITA toolchain</navtitle>
+                <navtitle>Using content filters with MDITA</navtitle>
             </topicmeta>
         </topicref>
-    </topicref>   
-    <topicref format="markdown" href="Dita-dac.md" keys="ddac"/>
-    <topicref format="markdown" href="DITA4dac.md" keys="d4dac">
-        <topicref format="markdown" href="write-review-MDITA.md" keys="write-MDITA"/>
-        <topicref format="markdown" href="Ditamaps4dac.md" keys="MDITA-maps"/>
-        <topicref format="markdown" href="publish-MDITA.md" keys="publish-MDITA"/>
-        <topicref format="markdown" href="test.md" keys="test"/>
+    </topicref>
+    <topicref href="LwDITA-toolchain.md" format="markdown" keys="LwDITA-toolchain">
+        <topicmeta>
+            <navtitle>A Lightweight DITA toolchain</navtitle>
+        </topicmeta>
+        <topicref href="lwdita-vscode.md" format="markdown" keys="lwdita-vscode">
+            <topicmeta>
+                <navtitle>Configuring Visual Studio Code to write Lightweight DITA</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="DITAOT-use.md" format="markdown" keys="DITAOT-use">
+            <topicmeta>
+                <navtitle>Installing and using the DITA Open Toolkit</navtitle>
+            </topicmeta>
+            <topicref href="DITAOT-local.md" format="markdown" keys="DITAOT-local">
+               <topicmeta>
+                <navtitle>Building Lightweight DITA content locally</navtitle>
+              </topicmeta>
+            </topicref>        
+            <topicref href="DITAOT-GHActions.md" format="markdown" keys="DITAOT-GHActions">
+               <topicmeta>
+                 <navtitle>Building Lightweight DITA with GitHub Actions</navtitle>
+               </topicmeta>
+            </topicref>
+        </topicref>
+        <topicref href="LwDITA-SSGs.md" format="markdown" keys="LwDITA-SSGs">
+            <topicmeta>
+                <navtitle>Using Lightweight DITA output with static site generators</navtitle>
+            </topicmeta>
+            <topicref href="cfg-docsify.md" format="markdown" keys="cfg-docsify">
+            <topicmeta>
+                <navtitle>Using Lightweight DITA output with Docsify</navtitle>
+            </topicmeta>
+        </topicref>
+            <topicref href="cfg-gitbook.md" format="markdown" keys="cfg-gitbook">
+                <topicmeta>
+                    <navtitle>Using Lightweight DITA output with GitBook</navtitle>
+                </topicmeta>
+            </topicref>
+            <topicref href="cfg-mkdocs.md" format="markdown" keys="cfg-mkdocs">
+                <topicmeta>
+                    <navtitle>Using Lightweight DITA output with MkDocs</navtitle>
+                </topicmeta>
+            </topicref>
+        </topicref>
     </topicref>
     <topicref format="ditamap" href="keydefs.ditamap" keys="keydefsmap"
         processing-role="resource-only"/>
