@@ -71,7 +71,7 @@ The `format` attribute is used by the DITA-OT during processing. For MDITA files
 
 You can also nest other XDITA maps within a map using `format="ditamap"`. A map that contains other maps is known as a *root map*. A map contained within another map is called a *submap*.
 
-The order that `topicref` elements appear top-to-bottom defines the order that topics will be presented in your document. You can also nest `topicref` elements within another `topicref` element. Nesting is useful for gathering topics that sure a general theme. In a navigation sidebar on documentation website, nested topics appear at a lower level than their parent.
+The order that `topicref` elements appear top-to-bottom defines the order that topics will be presented in your document. You can also nest `topicref` elements within another `topicref` element. Nesting is useful for gathering topics that share a general theme. In a navigation sidebar on a documentation website, nested topics appear at a lower level than their parent.
 
 Simple XDITA map converted to a navigation sidebar TOC in Docsify:
 <!-- Add a better image of docsify toc here -->
