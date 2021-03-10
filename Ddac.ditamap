@@ -66,12 +66,7 @@
         <topicref href="DITAOT-use.md" format="markdown" keys="DITAOT-use">
             <topicmeta>
                 <navtitle>Installing and using the DITA Open Toolkit</navtitle>
-            </topicmeta>
-            <topicref href="DITAOT-local.md" format="markdown" keys="DITAOT-local">
-               <topicmeta>
-                <navtitle>Building Lightweight DITA content locally</navtitle>
-              </topicmeta>
-            </topicref>        
+            </topicmeta>        
             <topicref href="DITAOT-GHActions.md" format="markdown" keys="DITAOT-GHActions">
                <topicmeta>
                  <navtitle>Building Lightweight DITA with GitHub Actions</navtitle>

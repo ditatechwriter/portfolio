@@ -11,14 +11,42 @@
             <linktext><ph>Acme Inc.</ph></linktext>
         </topicmeta>
     </keydef>
+    
+    
+    <!-- External links -->
     <keydef keys="LwDITA-Spec" href="https://www.oasis-open.org/committees/download.php/65658/lwdita.pdf" scope="external" format="pdf">
         <topicmeta>
             <linktext>Lightweight DITA Specification</linktext>
         </topicmeta>
     </keydef>
-    <keydef keys="mememaker-downloads" href="https://mememaker2000.acme.com/downloads" scope="external" format="html">
+    <keydef keys="dita-ot_downloads" href="https://www.dita-ot.org/download" scope="external" format="html">
         <topicmeta>
             <linktext>Downloads</linktext>
         </topicmeta>
     </keydef>
+    <keydef keys="dita-ot_install" href="https://www.dita-ot.org/dev/topics/installing-client.html" scope="external" format="html">
+        <topicmeta>
+            <linktext>Installing DITA-OT</linktext>
+        </topicmeta>
+    </keydef>
+    <keydef keys="dita_command" href="https://www.dita-ot.org/dev/topics/installing-client.html" scope="external" format="html">
+        <topicmeta>
+            <linktext>Using the <i>dita</i> command</linktext>
+        </topicmeta>
+    </keydef>
+    <keydef keys="dita-for-print" href="https://xmlpress.net/publications/dita/dita-for-print/" scope="external" format="html">
+        <topicmeta>
+            <linktext>DITA for Print</linktext>
+        </topicmeta>
+    </keydef>
+    <keydef keys="dita-build-action" href="https://github.com/jason-fox/dita-build-action" scope="external" format="html">
+        <topicmeta>
+            <linktext>dita-build-action</linktext>
+        </topicmeta>
+    </keydef>
+    <keydef keys="github-pages-deploy" href="https://github.com/marketplace/actions/deploy-to-github-pages" scope="external" format="html">
+        <topicmeta>
+            <linktext>github-pages-deploy</linktext>
+        </topicmeta>
+    </keydef>   
 </map>
