@@ -48,5 +48,10 @@
         <topicmeta>
             <linktext>github-pages-deploy</linktext>
         </topicmeta>
-    </keydef>   
+    </keydef>
+    <keydef keys="docsify-docs" href="https://docsify.js.org/#/" scope="external" format="html">
+        <topicmeta>
+            <linktext>Docsify documentation</linktext>
+        </topicmeta>
+    </keydef>    
 </map>

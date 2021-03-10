@@ -28,12 +28,12 @@ To filter out the last 2 list items, the ditaval filter file `nix_exclude.ditava
 </val>
 ```
 The DITA open toolkit instruction needs to include the `nix_exclude.ditaval`:
-```bash
+```
 dita -i some_map.ditamap -f markdown_github -o some__output_folder --filter=nix_exclude.ditaval
 ```
 
 The resultant Markdown output is:
-```markdown
+```
 ## Supported Operating Systems
 
 The following operating systems are supported by the Gruntmaster 6000 lite edition companion app:
@@ -44,7 +44,7 @@ The following operating systems are supported by the Gruntmaster 6000 lite editi
 
 
 The `props` attribute can also used at the map level to filter out whole files from a build:
-```xml
+```x
 <topicref href="somefile.md" format="markdown" props="mac"/>
 ```
 
