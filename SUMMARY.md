@@ -1,0 +1,23 @@
+# SUMMARY
+
+-   [Welcome!](intro.md)
+-   [Docs-as-code](dac.md)
+    -   [Markdown and docs-as-code](md-dac.md)
+    -   [What Markdown cannot do](md-limits.md)
+-   [Docs-as-code 2.0](dac2-0.md)
+    -   [Lightweight DITA](lwdita-overview.md)
+    -   [MDITA topics](MDITA-topics.md)
+    -   [HDITA tags in MDITA topics](HDITA-tags.md)
+    -   [Organizing MDITA topics with XDITA maps](XDITA-maps.md)
+    -   [Using keys with MDITA](MDITA-keys.md)
+    -   [Using content references with MDITA](MDITA-conrefs.md)
+    -   [Using content filters with MDITA](MDITA-filters.md)
+-   [A Lightweight DITA toolchain](LwDITA-toolchain.md)
+    -   [Configuring Visual Studio Code to write Lightweight DITA](lwdita-vscode.md)
+    -   [Installing and using the DITA Open Toolkit](DITAOT-use.md)
+        -   [Building Lightweight DITA with GitHub Actions](DITAOT-GHActions.md)
+    -   [Using Lightweight DITA output with static site generators](LwDITA-SSGs.md)
+        -   [Using Lightweight DITA output with Docsify](cfg-docsify.md)
+        -   [Using Lightweight DITA output with GitBook](cfg-gitbook.md)
+        -   [Using Lightweight DITA output with MkDocs](cfg-mkdocs.md)
+
