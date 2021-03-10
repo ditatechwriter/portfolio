@@ -10,3 +10,7 @@ You can link your GitBook account to the branch in your repository \(or a folder
 
 >  This is a note.
 
+>  This is a tip.
+
+>  This is a warning.
+
