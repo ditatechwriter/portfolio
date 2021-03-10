@@ -12,3 +12,9 @@ You can link your GitBook account to the branch in your repository (or a folder 
 
 > [!NOTE]
 >  This is a note.
+
+> [!TIP]
+>  This is a tip.
+
+> [!WARNING]
+>  This is a warning.
