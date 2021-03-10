@@ -9,3 +9,6 @@ The DITA-OT comes with ready-made build instruction that creates a `SUMMARY.md` 
 $ dita --input=some.ditamap --output=docs --format=markdown_gitbook
 ```
 You can link your GitBook account to the branch in your repository (or a folder within it) where you store your output files.
+
+> [!NOTE]
+>  This is a note.
