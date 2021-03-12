@@ -1,5 +1,5 @@
 ---
-id: LwDITA-toolchain
+id:LwDITA-toolchain
 ---
 
 # A Lightweight DITA toolchain
