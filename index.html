@@ -24,6 +24,26 @@
           '<option value="v1">v1.0</value>' +
           '<option value="v06">v0.6</value>' +
         '</select>',
+      namespaces: [
+        {
+          id: "version",
+          values: ["v1", "v06"],
+          default: "v1",
+          optional: true,
+          selector: "#version-selector"
+        }
+      ],
+      plugins:[
+        function(hook, vm) {
+          hook.doneEach(function(){
+            var appNameLink = Docsify.dom.find("#logo-link");
+
+            if (!appNameLink) return;
+
+            appNameLink.href = vm.config.currentNamespace;
+          });
+        }
+      ],
       repo: 'ditatechwriter/portfolio',
       homepage: 'Dita-dac.md',
       coverpage: 'coverpage.md', 
@@ -35,6 +55,10 @@
       executeScript: true,
       search: {
         paths: 'auto',
+        namespace: 'ditatechwriter',
+        hideOtherSidebarContent: true,
+        depth: 3,
+        pathNamespaces: ['/v06', '/v1']
       },
      copyCode: {
        buttonText : 'Copy to clipboard',
