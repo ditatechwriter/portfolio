@@ -1,4 +1,4 @@
--   [Welcome!](intro.md)
+-   [Welcome](intro.md)
 -   [Docs-as-code](dac.md)
     -   [Markdown and docs-as-code](md-dac.md)
     -   [What Markdown cannot do](md-limits.md)
