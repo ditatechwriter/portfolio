@@ -8,9 +8,3 @@ $ dita --input=some.ditamap --output=docs --format=markdown_gitbook
 
 You can link your GitBook account to the branch in your repository \(or a folder within it\) where you store your output files.
 
->  This is a note.
-
->  This is a tip.
-
->  This is a warning.
-
