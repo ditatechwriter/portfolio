@@ -24,7 +24,7 @@ HDITA is the HTML5 flavor of LwDITA. Entire topics can be written in HDITA of co
   </tr>
   <tr>
     <td>&lt;ul&gt;</td>
-    <td>&lt;li&gt; inside lt;ul&gt; or &lt;ol&gt;</td>
+    <td>&lt;li&gt; inside &lt;ul&gt; or &lt;ol&gt;</td>
     <td>&lt;p&gt;</td>
   </tr>
   <tr>

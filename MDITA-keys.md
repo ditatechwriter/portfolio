@@ -15,7 +15,8 @@ A key definitions map added as a submap to your main root ditamap is useful way 
 Single words or short text strings can be variabilized using keys. it's a good idea to use a text variable for any text, such as product name or company name, that is used frequently in a text and which could change based on factors over which the writer has no control. That way, the text value can be changed in one place and it will be updated throughout the document. Much better than using a risky global find-and-replace, which may have unintended consequences.
 
 The recommended format for creating a key definition in an keydefs map is:
-```
+
+```language-xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="keydefs-map">    
@@ -72,7 +73,8 @@ For more information, see [Acme Meme Maker 2000 user guide](https://www.mememake
 You can (and I recommend that you do) use keys for internal links in your docs. By linking to another file using a key rather than a href, you give yourself the flexibility to change the file name or location in the DITA map without having to make updates in every topic where the file is referenced.
 
 You do not need to use a separate key definition map to set a ket for an internal resouce, you can do that in root ditamap itself, for example:
-```
+
+```language-xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="root-map"> 

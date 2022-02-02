@@ -1,5 +1,6 @@
 ---
 id: MDITA-filters
+title: Using filters with MDITA
 ---
 
 # Using filters with MDITA
