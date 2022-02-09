@@ -1,5 +1,5 @@
 ---
-id: ${cfn}
+id: docs-as-code
 ---
 
 # Docs as code
@@ -23,7 +23,7 @@ Going even further, the docs-as-code approach allows technical writers to:
 - Write the docs in plain text mark-up as used by software developers
 - Store documentation in the same repositories the source code, if desired
 - Integrate into agile development teams more closely
-- Use the same tools for tracking work and issues as for code
+- Use the same tools for tracking docs work and issues as for code development
 
 The popularity of Agile development methodologies, the emergence of the Git version control system, the move to keep source code in online repositories in GitHub, Gitlab, BitBucket etc. have also driven technical writers to adapt their tools and processes to this new evironment to a more developer-centric model.
 
