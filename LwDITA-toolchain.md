@@ -4,7 +4,7 @@ id:LwDITA-toolchain
 
 # A Lightweight DITA toolchain
 
-I describe here a toolchain that I use. The aim however in any docs-as-code set up, in my opinion, is to have a flexible an attitude to tools as possible and, ideally avoiding, as much as possible, dependence on proprietary tools.
+I only describe here a toolchain that I use. The aim however in any docs-as-code set up, in my opinion, is to have a flexible an attitude to tools as possible and, ideally avoiding, as much as possible, dependence on proprietary tools.
 
 ## Writing content in a text editor
 
