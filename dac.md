@@ -2,7 +2,7 @@
 id: docs-as-code
 ---
 
-# Docs as code
+# Docs-as-code
 
 In the last 4-5 years, an approach to software documentation writing, management, and publication kown as docs-as-code (or sometimes docs-like-code) has become increasingly popular. The philosophy, as expounded in works like Anne Gentle's [Docs like code](https://books.google.co.uk/books/about/Docs_Like_Code.html?id=krM7DwAAQBAJ&redir_esc=y) aims to integrate technical documentation in the software development lifecycle more closely than ever before. 
 
