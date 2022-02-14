@@ -10,8 +10,9 @@ If you are used to publishing your Markdown content using a static site generato
 
 XDITA maps use the `.ditamap` file extension.
 
-A simple XDITA map for Acme Meme Maker 2000 - a software product for people with way to much time on their hands:
-```
+A simple XDITA map for <span data-keyref="product_name"></span> - a software product for people with way to much time on their hands:
+
+```language-xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="mememaker-map">
@@ -68,6 +69,6 @@ The order that `topicref` elements appear top-to-bottom defines the order that t
 The [product_name] map converted to a navigation sidebar TOC in Docsify:
 ![A sample navigation sidebar created from a ditamap](assets/sidebar.png)
 
-There are a few more XDITA map elements and attributes than shown here, some of which we will explore in [MDITA-keys]. For a comprehensive list, see the [LwDITA-Spec].
+There are a few more XDITA map elements and attributes than shown here, some of which we will explore in [MDITA-keys]. For a comprehensive list, see the [LwDITA-Spec]. 
 
 

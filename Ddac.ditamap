@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD XDITA Map//EN" "map.dtd">
 <map id="Ddac">
+    <topicref format="html" scope="peer" href="https://www.google.com">
+    <topicmeta>
+        <navtitle>Another product</navtitle>
+        <data name="wh-tile">
+            <data name="hide" value="yes"/>        
+        </data>
+    </topicmeta>
+    </topicref>
     <topicref href="dac.md" format="markdown" keys="dac">
         <topicmeta>
             <navtitle>Docs-as-code</navtitle>
